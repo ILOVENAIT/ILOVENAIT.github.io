@@ -15,7 +15,7 @@ header {
   padding: auto;
   grid-column: 4;
   font-size: xx-large;
-  color:rgb(22, 13, 63);
+  color: rgb(22, 13, 63);
 }
 
 .grid {
@@ -49,4 +49,10 @@ a:hover {
     rgba(204, 146, 39, 0.027),
     rgba(141, 110, 10, 0.527)
   );
+}
+
+.quote {
+  grid-column: 4/6;
+  grid-row: 6/7;
+  
 }

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Vollkorn+SC:wght@700&display=swap");
 
 body {
-  background-image: url(/LAB1/img/mountain.jfif);
+  background-image: url(../img/mountain.jfif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -74,7 +74,35 @@ img
 {
   .grid
   {
-    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5,100px 100px 100px 100px);
+
+    grid-template-areas:
+    "pos1"
+    "pos2"
+    "pos3"
+    "pos4";
+
+
+    
+  }
+
+  header
+  {
+    grid-area: pos1;
+  }
+
+  ul
+  {
+    grid-area: pos2;
+  }
+
+  img
+  {
+    grid-area: pos3;
+    margin: auto;
+    padding: auto;
   }
 
 

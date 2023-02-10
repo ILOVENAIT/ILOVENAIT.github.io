@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Vollkorn+SC:wght@700&display=swap");
 
 body {
-  background-image: url(/LAB1/img/mountain\ melt.jfif);
+  background-image: url(../img/mountain\ melt.jfif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -88,4 +88,32 @@ img
   justify-items: center;
   
   
+}
+
+
+@media screen and (max-width: 800px)
+{
+
+.grid
+{
+  display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5,100px 100px 100px 100px);
+
+    grid-template-areas:
+    "pos1"
+    "pos2"
+    "pos3"
+    "pos4";
+}
+
+
+
+
+.social-container
+{
+ grid-area: pos3;
+}
+
+
 }

@@ -50,3 +50,42 @@ a:hover {
     rgba(141, 110, 10, 0.527)
   );
 }
+button > a {
+  color: pink;
+}
+button {
+  background-color: transparent;
+  border-color: rgb(182, 151, 93);
+  border-radius: 40px;
+  width: 100px;
+  height: 50px;
+  grid-column: 4;
+  grid-row: 8;
+  margin: auto;
+}
+button:hover {
+  background-color: cadetblue;
+}
+
+.social {
+  border: 1px black ;
+  grid-column: 3/6;
+  grid-row: 4;
+  
+ 
+  
+}
+.social-container
+{
+ display: flex;
+ justify-content: space-evenly;
+ 
+}
+img
+{
+  width:50px;
+  
+  justify-items: center;
+  
+  
+}

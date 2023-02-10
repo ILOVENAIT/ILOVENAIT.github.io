@@ -50,3 +50,40 @@ a:hover {
     rgba(141, 110, 10, 0.527)
   );
 }
+
+.cover {
+  border: 1px solid black;
+  grid-row: 3/10;
+  grid-column: 2/7;
+  background-color: rgb(0, 0, 0);
+  
+  border-radius: 100px;
+  
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  
+}
+.cover:hover
+{
+  background-color: transparent;
+  transition: background-color 2s ease-in;
+  z-index: 10;
+}
+.cover-contents
+{
+ text-align: center;
+ padding: auto;
+ z-index: 1;
+}
+
+h1
+{
+  text-align: center;
+  
+  z-index: 1;
+}
+img
+{
+  width:  100px;
+  height: 100px;
+}
